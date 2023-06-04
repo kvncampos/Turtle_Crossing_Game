@@ -9,7 +9,7 @@ Use the Down arrow key to move the turtle down.
 Avoid getting hit by the cars moving across the screen.
 Reach the other side of the road safely to score points and level up.
 
-#Dependencies
+# Dependencies
 
 This game requires the following dependencies:
 
@@ -27,7 +27,7 @@ To run the game, simply execute the Python script:
 Copy code
 python turtle_crossing.py
 
-#Game Features
+# Game Features
 
 The turtle starts at the bottom of the screen and can be moved up and down using the arrow keys.
 Cars will be generated from the right side of the screen and move towards the left.
@@ -35,12 +35,12 @@ The player earns points and levels up by safely crossing the road.
 As the level increases, the speed of the cars and the score requirements for leveling up also increase.
 If the turtle gets hit by a car, the game ends, and the final score is displayed.
 
-#Game Controls
+# Game Controls
 
 Up Arrow: Move the turtle up
 Down Arrow: Move the turtle down
 
-#Code Overview
+# Code Overview
 
 The code is structured into several classes:
 
