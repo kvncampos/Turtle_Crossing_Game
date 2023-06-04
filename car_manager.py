@@ -13,7 +13,6 @@ STARTING_POSITIONS = [240, 220, 200, 180, 160, 140, 120, 100, 80, 60, 40, 20, 0,
 class CarManager(Turtle):
     def __init__(self):
         super().__init__()
-        self.distance_speed = 0
         self.hideturtle()
         self.counter = 0
         self.cars = []
@@ -33,7 +32,6 @@ class CarManager(Turtle):
         new_car.goto(280, random.choice(STARTING_POSITIONS))
         self.cars.append(new_car)
         self.counter = 0
-        self.distance_speed = 0
 
     def update_counter(self):
         """Simple counter for Car Addition Pace"""
