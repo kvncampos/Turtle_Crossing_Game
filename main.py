@@ -17,7 +17,7 @@ car = CarManager()
 screen.listen()
 # Control the Turtle Up/Down
 screen.onkey(player.go_up, "Up")
-screen.onkey(player.go_down(), "Down")
+screen.onkey(player.go_down, "Down")
 
 game_is_on = True
 while game_is_on:

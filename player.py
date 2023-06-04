@@ -29,7 +29,10 @@ class Player(Turtle):
     def go_down(self):
         """Moves the Turtle Down"""
         new_y = self.ycor() - MOVE_DISTANCE
-        self.goto(self.xcor(), new_y)
+        if self.pos() <= STARTING_POSITION:
+            pass
+        else:
+            self.goto(self.xcor(), new_y)
 
     def check_finish_line(self):
         """if Turtle has reached Finish Line, Returns True."""
