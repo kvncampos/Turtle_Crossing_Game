@@ -9,7 +9,7 @@ class Scoreboard(Turtle):
         self.color("black")
         self.penup()
         self.hideturtle()
-        self.level = 0
+        self.level = 1
         self.update_scoreboard()
 
     def update_scoreboard(self):
